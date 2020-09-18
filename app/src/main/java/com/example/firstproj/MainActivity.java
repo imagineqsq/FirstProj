@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //this is a test to verify zzz
 //        final TextView textView = findViewById(R.id.tv2);
 //        textView.setText("hello android");
         final TextView ttv = findViewById(R.id.ttv);
