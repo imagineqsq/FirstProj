@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">First Proj</string>
+    <string name="app_name">阅图</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -13,4 +13,10 @@
     <string name="title_activity_rate_list">RateListActivity</string>
     <string name="title_activity_main2">MainActivity</string>
     <string name="title_activity_new_list">NewList</string>
+    <string name="title_activity_first_page">FirstPage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_label">这是第一个界面</string>
+    <string name="second_label">这是第二个界面</string>
+    <string name="third_label">这是第三个界面</string>
 </resources>

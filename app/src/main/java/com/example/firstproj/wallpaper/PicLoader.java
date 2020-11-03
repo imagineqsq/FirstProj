@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.logging.LogRecord;
+
 
 public class PicLoader {
     private ImageView loadImg;

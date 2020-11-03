@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.firstproj.R;
 
-public class Beauty extends AppCompatActivity {
+public class Foods extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

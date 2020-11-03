@@ -21,39 +21,39 @@ public class FrameActivity extends FragmentActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragments);
-        fragments = new Fragment[3];
-        fragmentManager= getSupportFragmentManager();
-        fragments[0] = fragmentManager.findFragmentById(R.id.fragment1);
-        fragments[1] = fragmentManager.findFragmentById(R.id.fragment2);
-        fragments[2] = fragmentManager.findFragmentById(R.id.fragment3);
-        fragmentTransaction = fragmentManager.beginTransaction()
-                .hide(fragments[0]).hide(fragments[1]).hide(fragments[2]);
-        fragmentTransaction.show(fragments[0]).commit();
-
-        rbtHome = findViewById(R.id.radio1);
-        rbtInfo = findViewById(R.id.radio2);
-        rbtSetting = findViewById(R.id.radio3);
-
-        radioGroup = findViewById(R.id.bottomGroup);
-        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                fragmentTransaction = fragmentManager.beginTransaction()
-                        .hide(fragments[0]).hide(fragments[1]).hide(fragments[2]);
-                switch (i){
-                    case R.id.radio1:
-                        fragmentTransaction.show(fragments[0]).commit();
-                        break;
-                    case R.id.radio2:
-                        fragmentTransaction.show(fragments[1]).commit();
-                        break;
-                    case R.id.radio3:
-                        fragmentTransaction.show(fragments[2]).commit();
-                        break;
-                    default:
-                        break;
-                }
-            }
-        });
+//        fragments = new Fragment[3];
+//        fragmentManager= getSupportFragmentManager();
+//        fragments[0] = fragmentManager.findFragmentById(R.id.fragment1);
+//        fragments[1] = fragmentManager.findFragmentById(R.id.fragment2);
+//        fragments[2] = fragmentManager.findFragmentById(R.id.fragment3);
+//        fragmentTransaction = fragmentManager.beginTransaction()
+//                .hide(fragments[0]).hide(fragments[1]).hide(fragments[2]);
+//        fragmentTransaction.show(fragments[0]).commit();
+//
+//        rbtHome = findViewById(R.id.radio1);
+//        rbtInfo = findViewById(R.id.radio2);
+//        rbtSetting = findViewById(R.id.radio3);
+//
+//        radioGroup = findViewById(R.id.bottomGroup);
+//        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+//                fragmentTransaction = fragmentManager.beginTransaction()
+//                        .hide(fragments[0]).hide(fragments[1]).hide(fragments[2]);
+//                switch (i){
+//                    case R.id.radio1:
+//                        fragmentTransaction.show(fragments[0]).commit();
+//                        break;
+//                    case R.id.radio2:
+//                        fragmentTransaction.show(fragments[1]).commit();
+//                        break;
+//                    case R.id.radio3:
+//                        fragmentTransaction.show(fragments[2]).commit();
+//                        break;
+//                    default:
+//                        break;
+//                }
+//            }
+//        });
     }
 }

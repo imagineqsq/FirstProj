@@ -18,8 +18,7 @@ public class Fragment3 extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState){
         super.onActivityCreated(savedInstanceState);
-        TextView textView = getView().findViewById(R.id.setting);
-        textView.setText("this is 设置页面");
+
     }
 }
 
