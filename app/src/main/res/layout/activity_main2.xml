@@ -8,21 +8,21 @@
     android:orientation="vertical"
     tools:context=".wallpaper.MainActivity">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/sliding_tabs"
-        style="@style/TextAppearance.AppCompat.Display1"
-        android:background="@drawable/ic_scenery"
-        
-        android:layout_width="match_parent"
-        android:layout_height="68dp"
-        app:tabMode="fixed" />
-
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="479dp">
+        android:layout_height="432dp">
 
     </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/sliding_tabs"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+
+        android:layout_height="109dp"
+        android:background="@drawable/tab"
+        app:tabMode="fixed" />
 
 
 </LinearLayout>

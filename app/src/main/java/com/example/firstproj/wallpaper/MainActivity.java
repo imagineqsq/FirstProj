@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.view.ViewGroup;
 
 import com.example.firstproj.R;
 import com.google.android.material.tabs.TabLayout;
@@ -20,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(pageAdapter);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+
+
         tabLayout.setupWithViewPager(viewPager);
 
     }

@@ -1,13 +1,23 @@
 package com.example.firstproj.wallpaper;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 public class MyPageAdapter extends FragmentPagerAdapter {
+    String[] titles = {"风景","萌宠","美食"};
+
     public MyPageAdapter(@NonNull FragmentManager fm) {
         super(fm);
+    }
+
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+
+        return titles[position];
     }
 
     @NonNull
