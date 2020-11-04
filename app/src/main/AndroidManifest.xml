@@ -6,11 +6,11 @@
         android:allowBackup="true"
         android:icon="@drawable/life"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/life"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".wallpaper.Detail" />
-        <activity android:name=".wallpaper.MainActivity">
+        <activity android:name=".picnote.Detail" />
+        <activity android:name=".picnote.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,25 +18,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NewList"
+            android:name=".onclass.NewList"
             android:label="@string/title_activity_new_list"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".test1"
+            android:name=".onclass.test1"
             android:exported="true"
             android:label="test"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Config" />
+        <activity android:name=".onclass.Config" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".onclass.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

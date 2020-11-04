@@ -1,4 +1,4 @@
-package com.example.firstproj.wallpaper;
+package com.example.firstproj.picnote;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -14,11 +14,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.firstproj.R;
 
-import static com.example.firstproj.wallpaper.DbHelper.TABLE_NAME;
-import static com.example.firstproj.wallpaper.SecondFragment.TAG_INSERT;
-import static com.example.firstproj.wallpaper.SecondFragment.TAG_UPDATE;
-import static com.example.firstproj.wallpaper.SecondFragment.dbHelper;
-import static com.example.firstproj.wallpaper.SecondFragment.getDbHelper;
+import static com.example.firstproj.picnote.DbHelper.TABLE_NAME;
+import static com.example.firstproj.picnote.SecondFragment.TAG_INSERT;
+import static com.example.firstproj.picnote.SecondFragment.TAG_UPDATE;
+import static com.example.firstproj.picnote.SecondFragment.dbHelper;
+import static com.example.firstproj.picnote.SecondFragment.getDbHelper;
 
 public class Detail extends AppCompatActivity {
     private SQLiteDatabase db;
@@ -52,7 +52,7 @@ public class Detail extends AppCompatActivity {
                     String select_content=cursor.getString(cursor.getColumnIndex("content"));
                     title.setText(select_title);
                     content.setText(select_content);
-                    //  Log.d("Ditail","title:"+select_title);
+                    //  Log.d("Detail","title:"+select_title);
                     //  Log.d("Detail","content"+select_content);
                 }
                 break;
@@ -78,7 +78,7 @@ public class Detail extends AppCompatActivity {
                     values.put("content", content.getText().toString());
                     db.insert(TABLE_NAME, null, values);
                     values.clear();
-                    Toast.makeText(this, "Save", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "已保存", Toast.LENGTH_SHORT).show();
                     finish();
                     break;
                 }else if(tag==TAG_UPDATE){
@@ -96,7 +96,7 @@ public class Detail extends AppCompatActivity {
                 if(tag==TAG_UPDATE) {
                     db.delete(TABLE_NAME,"id=?",new String[]{String.valueOf(id)});
                 }
-                Toast.makeText(this,"Delete",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"已删除",Toast.LENGTH_SHORT).show();
                 finish();
                 break;
             default:

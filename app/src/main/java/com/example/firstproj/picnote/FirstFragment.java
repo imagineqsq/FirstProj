@@ -1,4 +1,4 @@
-package com.example.firstproj.wallpaper;
+package com.example.firstproj.picnote;
 
 import android.os.Bundle;
 
@@ -13,8 +13,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import com.example.firstproj.R;
-
-import java.util.ArrayList;
 
 
 public class FirstFragment extends Fragment {

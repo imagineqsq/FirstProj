@@ -1,4 +1,4 @@
-package com.example.firstproj.wallpaper;
+package com.example.firstproj.picnote;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -23,9 +23,9 @@ import com.example.firstproj.R;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.firstproj.wallpaper.DbHelper.DB_NAME;
-import static com.example.firstproj.wallpaper.DbHelper.TABLE_NAME;
-import static com.example.firstproj.wallpaper.DbHelper.VERSION;
+import static com.example.firstproj.picnote.DbHelper.DB_NAME;
+import static com.example.firstproj.picnote.DbHelper.TABLE_NAME;
+import static com.example.firstproj.picnote.DbHelper.VERSION;
 
 
 public class SecondFragment extends Fragment {

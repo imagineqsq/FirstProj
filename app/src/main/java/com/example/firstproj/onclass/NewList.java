@@ -1,7 +1,8 @@
-package com.example.firstproj;
+package com.example.firstproj.onclass;
 
 import android.os.Bundle;
 
+import com.example.firstproj.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 

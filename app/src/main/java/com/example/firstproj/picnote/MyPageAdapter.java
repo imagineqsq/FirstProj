@@ -1,4 +1,4 @@
-package com.example.firstproj.wallpaper;
+package com.example.firstproj.picnote;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

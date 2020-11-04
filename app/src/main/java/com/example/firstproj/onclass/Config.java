@@ -1,10 +1,12 @@
-package com.example.firstproj;
+package com.example.firstproj.onclass;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.firstproj.R;
 
 public class Config extends AppCompatActivity {
 

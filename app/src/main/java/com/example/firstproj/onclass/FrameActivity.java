@@ -1,4 +1,4 @@
-package com.example.firstproj;
+package com.example.firstproj.onclass;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
@@ -8,6 +8,8 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+
+import com.example.firstproj.R;
 
 public class FrameActivity extends FragmentActivity {
 

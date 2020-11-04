@@ -1,10 +1,12 @@
-package com.example.firstproj;
+package com.example.firstproj.onclass;
 
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.firstproj.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

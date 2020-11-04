@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightgray"
     android:orientation="vertical"
-    tools:context=".wallpaper.FirstFragment">
+    tools:context=".picnote.FirstFragment">
 
     <ImageView
         android:id="@+id/pic"
@@ -17,11 +18,13 @@
         android:id="@+id/pre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/mistyrose"
         android:text="上一张" />
 
     <Button
         android:id="@+id/next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/mistyrose"
         android:text="下一张" />
 </LinearLayout>

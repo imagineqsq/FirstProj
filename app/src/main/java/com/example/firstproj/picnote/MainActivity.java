@@ -1,10 +1,9 @@
-package com.example.firstproj.wallpaper;
+package com.example.firstproj.picnote;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import android.view.ViewGroup;
 
 import com.example.firstproj.R;
 import com.google.android.material.tabs.TabLayout;

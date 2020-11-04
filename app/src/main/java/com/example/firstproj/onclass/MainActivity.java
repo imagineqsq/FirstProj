@@ -1,7 +1,6 @@
-package com.example.firstproj;
+package com.example.firstproj.onclass;
 
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,6 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.firstproj.R;
 
 public class MainActivity extends AppCompatActivity {
     @Override

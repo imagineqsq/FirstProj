@@ -1,4 +1,4 @@
-package com.example.firstproj;
+package com.example.firstproj.onclass;
 
 public class Currency {
     private int id;

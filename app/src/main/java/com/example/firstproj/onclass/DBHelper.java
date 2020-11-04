@@ -1,4 +1,4 @@
-package com.example.firstproj;
+package com.example.firstproj.onclass;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
