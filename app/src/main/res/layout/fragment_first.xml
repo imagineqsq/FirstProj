@@ -8,20 +8,20 @@
     tools:context=".wallpaper.FirstFragment">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/pic"
         android:layout_width="match_parent"
         android:layout_height="335dp"
         tools:src="@tools:sample/backgrounds/scenic[6]" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/pre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="上一张" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="下一张" />
 </LinearLayout>
