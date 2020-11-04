@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 public class MyPageAdapter extends FragmentPagerAdapter {
-    String[] titles = {"风景","萌宠","美食"};
+    String[] titles = {"美图","记事本"};
 
     public MyPageAdapter(@NonNull FragmentManager fm) {
         super(fm);
@@ -25,16 +25,14 @@ public class MyPageAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if(position==0){
             return new FirstFragment();
-        }else if(position==1){
+        }else {
             return new SecondFragment();
-        }else{
-            return new ThirdFragment();
         }
 
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 2;
     }
 }

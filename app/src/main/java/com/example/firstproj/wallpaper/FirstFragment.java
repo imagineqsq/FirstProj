@@ -21,10 +21,8 @@ public class FirstFragment extends Fragment {
 
     private Button pre,next;
     private ImageView pic;
-    private ArrayList<String> urls;
-    private int[] img = {R.drawable.ic_cartoon,R.drawable.ic_foods,R.drawable.ic_scenery};
+    private int[] img = {R.drawable.pic1,R.drawable.pic2,R.drawable.pic3,R.drawable.pic4,R.drawable.pic5,R.drawable.pic6,R.drawable.pic7,R.drawable.pic8};
     private int num = 0;
-    private PicLoader loader;
 
     @Nullable
     @Override
@@ -49,7 +47,7 @@ public class FirstFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 if(num<=0){
-                    num=3;
+                    num=8;
                 }
                     pic.setImageResource(img[--num]);
 
@@ -60,7 +58,7 @@ public class FirstFragment extends Fragment {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(num>=2){
+                if(num>=8){
                     num=-1;
                 }
                 pic.setImageResource(img[++num]);
