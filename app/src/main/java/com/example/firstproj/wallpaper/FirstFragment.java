@@ -58,7 +58,7 @@ public class FirstFragment extends Fragment {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(num>=8){
+                if(num>=7){
                     num=-1;
                 }
                 pic.setImageResource(img[++num]);

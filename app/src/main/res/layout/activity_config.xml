@@ -29,7 +29,7 @@
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/save"
+        android:id="@+id/sav"
         android:layout_width="238dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
